@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TapTest</title>
+  <link rel="stylesheet" href="TapTest.css" />
+</head>
+<body>
+  <!-- Menu of the Taptest Game -->
+  <section id="menu-screen">
+    <h1>WELCOME TO <span>TapTest</span></h1>
+    <h2>HOW TO PLAY:</h2>
+    <ul>
+      <li>Wait for the screen to turn GREEN.</li>
+      <li>Click as FAST as you can!</li>
+      <li>Don't click too early or you'll fail.</li>
+    </ul>
+    <button id="start-btn">START</button>
+  </section>
+
+  <!-- Game screen -->
+  <section id="game-screen" class="hidden">
+    <h1>TapTest</h1>
+    <div id="box">Wait for green</div>
+    <button id="back-btn-game" class="back">&larr;</button>
+  </section>
+
+  <!-- Result screen -->
+  <section id="result-screen" class="hidden">
+    <h1>Result</h1>
+    <p>Time:</p>
+    <div id="time-display">0.000</div>
+    <button id="play-again-btn">Play Again?</button>
+    <button id="back-btn-result" class="back">&larr; Back</button>
+  </section>
+
+  <script src="TapTest.js"></script>
+</body>
+</html>
